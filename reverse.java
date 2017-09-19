@@ -4,7 +4,7 @@ class reverse
 {
  public static void main(string args[])
  {
-   int n;
+   int n,reversee=0,remainder;
    scannar s=new scannar(system.in);
    n=s.nextint();
    while(n!=0)
