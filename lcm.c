@@ -21,6 +21,7 @@ int main()
     denominator=remainder;
     remainder=numerator%denominator;
     }
-    gcd=denominator;
-    printf("the gcd is%d",gcd);
+     gcd=denominator;
+    lcm=num1*num2/gcd;
+    printf("the lcm is%d",lcm);
     }
