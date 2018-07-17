@@ -1,0 +1,6 @@
+n1=input().split(",")
+n2=int(input("enter the number:"))
+n3=list(n1)
+print(n3)
+n3.pop(n2+1)
+print(n3)
